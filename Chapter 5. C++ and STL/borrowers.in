@@ -1,0 +1,53 @@
+"The Canterbury Tales" by Chaucer, G.
+"The Canterbury Taless" by Chaucer, B.
+"Algorithms" by Sedgewick, R.
+"The C Programming Language" by Kernighan, B. and Ritchiee, D.
+"The C Programming Languag" by Kernighan, B. and Ritchiee, D.
+"The D Programming Language" by Kernighan, B. and Ritchiee, D.
+"A House for Mr. Biswas" by Naipaul, V.S.
+"A Congo Diary" by Naipaul, V.S.
+END
+BORROW "Algorithms"
+BORROW "The C Programming Language"
+BORROW "The C Programming Languag"
+BORROW "The Canterbury Taless"
+SHELVE
+RETURN "Algorithms"
+SHELVE
+RETURN "The C Programming Languag"
+SHELVE
+BORROW "The C Programming Languag"
+BORROW "The Canterbury Taless"
+BORROW "A House for Mr. Biswas"
+RETURN "The Canterbury Taless" 
+SHELVEETURN "The C Programming Language"
+RETURN "A House for Mr. Biswas"
+SHELVE
+END
+"The Canterbury Tales" by Chaucer, G.
+"Algorithms" by Sedgewick, R.
+"The C Programming Language" by Kernighan, B. and Ritchie, D.
+"C++ Primer" by Stanley B. Lippman and Josee Lajoie and Barbara E. Moo
+"AOAPC II: Beginning Algorithm Contests (Second Edition)" by Rujialiu
+END
+BORROW "Algorithms"
+BORROW "The C Programming Language"
+RETURN "Algorithms"
+RETURN "The C Programming Language"
+SHELVE
+SHELVE
+BORROW "C++ Primer"
+BORROW "Algorithms"
+BORROW "The C Programming Language"
+BORROW "AOAPC II: Beginning Algorithm Contests (Second Edition)"
+BORROW "The Canterbury Tales"
+SHELVE
+RETURN "C++ Primer"
+SHELVE
+RETURN "The C Programming Language"
+RETURN "AOAPC II: Beginning Algorithm Contests (Second Edition)"
+RETURN "The Canterbury Tales"
+SHELVE
+RETURN "Algorithms"
+SHELVE
+END
